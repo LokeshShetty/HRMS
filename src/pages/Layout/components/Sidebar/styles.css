@@ -1,0 +1,55 @@
+.sidebar-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 36px 20px;
+  align-items: center;
+}
+
+.sidebar-company-logo {
+  width: 60%;
+  margin-bottom: 36px;
+}
+
+.sidebar-active-tab,
+.sidebar-inactive-tab:hover {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0.42) 100%
+  );
+}
+
+.sidebar-active-tab,
+.sidebar-inactive-tab {
+  align-self: stretch;
+  padding: 10px 20px 10px 10px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  box-sizing: border-box;
+  gap: 8px;
+}
+
+.sidebar-active-tab:active {
+  color: var(--primary-color);
+}
+
+.sidebar-tab-icon {
+  width: 10%;
+  height: 50%;
+}
+
+.sidebar-tabs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 6px;
+}
